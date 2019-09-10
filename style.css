@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext');
+h1{
+    font-size: 4rem;
+}
+body{
+    background-image: url('slike/kuhinja2.jpg');
+    font-family: 'Cuprum', sans-serif;
+}
+.glavni{
+    margin-top: 50px;
+}
+.vel{
+    height: 120px;
+}
+.sl{
+    height: 80px;
+    width: auto;
+}
+.redbt{
+    /* height: 7vh; */
+    font-size: 2rem;
+}
+.dd{
+    font-weight: 700;
+    font-style: italic;
+}
+.fs{
+    font-size: 2rem;
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+    right: 10%;
+}
+.pa2{
+    position: absolute;
+    right: 50%;
+}
+.bigger{
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.bigger2{
+    min-width: 18vw;
+    /* font-size: 1.6rem; */
+    font-weight: 700;
+    font-style: italic;
+
+}
+.bigger3{
+    width: 18vw;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+
+}
+.redclr{
+    margin: 0 auto;
+    width: 35vw;
+    color: white;
+    background-color: rgb(218,83,79);
+    border: 2px solid rgb(218,83,79);;
+    border-radius: 5px;
+}
+body{
+    position: relative;
+}
+.cpp{
+    /* height: 95vh;
+    width: 38vh;
+    border-radius: 10px;*/
+    position: absolute; top:-20px;
+    height:150px; width:80%; left:10%; overflow-y:auto; 
+    text-align:left; padding-left:2em;
+    color:#333;
+    background-color:rgba(255,255,255, .8);
+    border-radius:10px;
+    border:1px solid #333;
+    font-family: Lucida Console;
+}
+.cpp p{ padding-left: 3em; margin:0; }
+#meni{ padding-top:150px;}
+@media only screen and (max-width: 1000px) {
+    #moze{ font-size:1.3em; }
+    .redclr{ width:auto;}
+}
+@media only screen and (max-width: 770px) {
+    .bigger2{ width:15rem; }
+}
+#poruka{
+    position:fixed; top:0; left:0; right:0; bottom:0;
+    background-color: rgba(0,0,0,.8); z-index:100; 
+}
+#poruka p{ width:50%; text-align:center; left:25%; position:absolute;
+    top:50%; transform: translateY(-50%);  
+    font-size:2em; border:3px solid white; 
+padding:1em;  z-index:100; color:white;
+border-radius:15px; 
+}
+footer{
+    position:fixed; bottom:0; left:0; right:0; text-align:center;
+    background-color:rgba(240,240,240,.5);
+}
+.typewriter div p{
+    opacity:0; height:0;
+    animation:prikazi .3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes prikazi{
+    from{ opacity:0; height:0; }
+    to{ opacity:1; height:auto; }
+} 
+.typewriter div p:nth-child(2) { animation-delay: .3s; }
+.typewriter div p:nth-child(3) { animation-delay: .6s; }
+.typewriter div p:nth-child(4) { animation-delay: .9s; }
+.typewriter div p:nth-child(5) { animation-delay: 1.2s; }
+.typewriter div p:nth-child(6) { animation-delay: 1.5s; }
+.typewriter div p:nth-child(7) { animation-delay: 1.8s; }
+.typewriter div p:nth-child(8) { animation-delay: 2.1s; }
+.typewriter div p:nth-child(9) { animation-delay: 2.4s; }
+.typewriter div p:nth-child(10) { animation-delay: 2.7s; }
